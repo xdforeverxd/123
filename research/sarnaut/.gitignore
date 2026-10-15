@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+private/
+converted/
+upscaled/
+reports/
+*.pck

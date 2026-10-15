@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-10-15",
+  "repositories": {
+    "SarnautCore/client": {
+      "commit": "4aa4a9ac1da32e0ea075e42d9833ee0656cebed5",
+      "url": "https://github.com/SarnautCore/client"
+    },
+    "SarnautCore/server": {
+      "commit": "4fae289eba78da848948db52b10ef373b241a6fa",
+      "url": "https://github.com/SarnautCore/server"
+    },
+    "SarnautCore/tools": {
+      "commit": "a85bca32126392e80a2d1e536616bed901af6a09",
+      "url": "https://github.com/SarnautCore/tools"
+    },
+    "SarnautCore/docs": {
+      "commit": "10c095185b3990367f2d60702d968f7108d27da5",
+      "url": "https://github.com/SarnautCore/docs"
+    },
+    "paulus-allods/AllodsOnlineEditorTools": {
+      "commit": "e168fda4a06120398204cb7976074c76842d2c66",
+      "url": "https://github.com/paulus-allods/AllodsOnlineEditorTools"
+    }
+  },
+  "unavailable": [
+    "https://github.com/SarnautCore/ao-godot-converter",
+    "https://github.com/SarnautCore/ao-blender-converter"
+  ],
+  "note": "Converter endpoints returned 404 for this account. This does not establish whether they are private, renamed or removed."
+}

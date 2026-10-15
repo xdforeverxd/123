@@ -1,0 +1,21 @@
+name: Sarnaut local audit tests
+on:
+  push:
+    branches: ["research/sarnaut-android-preflight"]
+    paths: ["research/sarnaut/**", ".github/workflows/sarnaut-preflight.yml"]
+  pull_request:
+    paths: ["research/sarnaut/**", ".github/workflows/sarnaut-preflight.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test with invented local files only
+        run: python -m unittest discover -s research/sarnaut -p "test_*.py" -v
